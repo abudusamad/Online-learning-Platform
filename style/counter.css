@@ -1,0 +1,40 @@
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 10px;
+}
+.counter h1 {
+  font-size: 3rem;
+  color: #333;
+}
+.counter button {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.counter button:hover {
+  background-color: #555;
+}
+.counter button:active {
+  background-color: #777;
+}
+.counter button:focus {
+  outline: none;
+}
+.counter button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+.counter button:disabled:hover {
+  background-color: #ccc;
+}
+.counter h2 {
+  font-size: 2rem;
+  color: #333;
+}/*# sourceMappingURL=counter.css.map */
